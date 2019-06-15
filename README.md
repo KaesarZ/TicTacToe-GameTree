@@ -38,7 +38,7 @@ The application was written in Python 3, and it appeared like academic work for 
 
 * **Júlio César** - *Initial work* - [KaesarZ](https://github.com/KaesarZ)
 
-See also the list of [contributors](https://github.com/KaesarZ/Project-ALG/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/KaesarZ/TicTacToe-GameTree/contributors) who participated in this project.
 
 ## License
 
