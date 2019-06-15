@@ -101,19 +101,19 @@ def startGame(mode=1,game_tree=Graph(), avaliable=[0,1,2,3,4,5,6,7,8]):
         #Draw verify
         draw_weight, draw_pos = verify('-' * 9, current, game_tree)
    
-        print('Symbol:', symbol_pos, 'Weight:', symbol_weight)
-        print('Enemy:', enemy_pos, 'Weight:', enemy_weight)
-        print('Draw:', draw_pos, 'Weight:', draw_weight)
+        #print('Symbol:', symbol_pos, 'Weight:', symbol_weight)
+        #print('Enemy:', enemy_pos, 'Weight:', enemy_weight)
+        #print('Draw:', draw_pos, 'Weight:', draw_weight)
         
         if symbol_weight != float('inf') or enemy_weight != float('inf'):
             if (enemy_weight < symbol_weight):
-                print('ENEMY CHOICE')
+                #print('ENEMY CHOICE')
                 return enemy_pos
             else:
-                print('SYMBOL CHOICE')
+                #print('SYMBOL CHOICE')
                 return symbol_pos
         else:
-            print('RANDOM CHOICE')
+            #print('RANDOM CHOICE')
             pos = random.choice(avaliable)
             return pos
     
