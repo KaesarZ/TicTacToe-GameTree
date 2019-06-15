@@ -85,6 +85,7 @@ def startGame(mode=1,game_tree=Graph(), avaliable=[0,1,2,3,4,5,6,7,8]):
             print('RANDOM CHOICE')
             pos = random.choice(avaliable)
             return pos
+        
         current = board2String(board);
         game_tree.dijkstra(current)
         #Symbol and Enemy set
@@ -264,8 +265,12 @@ def menu(game_tree=None, message=''):
     print('Vertices: ', game_tree.lenVertices,'\tEdges:', game_tree.lenEdges)
     option = inputValidInt('Input a option: ')
     clearTerminal()
-    if  0 < option < 5:
+    if  0 < option < 4:
         game_tree = startGame(option, game_tree,[0,1,2,3,4,5,6,7,8])
+    elif option == 4:
+        number = inputValidInt('Repeat how many times? ')
+        for i in range(number):
+            game_tree = startGame(option, game_tree,[0,1,2,3,4,5,6,7,8])
     elif option == 5:
         deepSearch(game_tree)
     elif option == 6:
