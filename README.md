@@ -16,7 +16,7 @@ The application was written in Python 3, and it appeared like academic work for 
   - Add vertice
   - Add edge
   - Rem vertice
-  - Rem edge
+  - Rem edge
   - Check if they are connected
   - Return vertex entry degree
   - Return vertex output degree
