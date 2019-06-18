@@ -1,8 +1,8 @@
 '''
     Project: Persistence
     Description: Implementation of persistence routines
-    Name: Julio Cesar de Carvalho Barros
-    Email: jccb2@cin.ufpe.br
+    Authors: Julio Cesar de Carvalho Barros (jccb2@cin.ufpe.br)
+             Guilherme Guerra Campos (ggc3@cin.ufpe.br)
 '''
 from Graph import Graph
 
