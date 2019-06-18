@@ -1,8 +1,8 @@
 '''
     Project: Graph
     Description: Implementation of Graph Structure
-    Name: Julio Cesar de Carvalho Barros
-    Email: jccb2@cin.ufpe.br
+    Authors: Julio Cesar de Carvalho Barros (jccb2@cin.ufpe.br)
+             Guilherme Guerra Campos (ggc3@cin.ufpe.br)
 '''
 from Heap import *
 
