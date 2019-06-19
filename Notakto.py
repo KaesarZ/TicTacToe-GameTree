@@ -177,7 +177,7 @@ def deepSearch(graph,Q=[]):
             else:
                 graph.addVertice('2' * 9)
                 graph.addEdge(current,'2' * 9, -1)
-        exportGraph(graph)
+        exportGraph(graph, 'game-tree-notakto.txt')
         
     def deepSearchEx(graph,u):
         ''' Aux method for deepSearch'''
