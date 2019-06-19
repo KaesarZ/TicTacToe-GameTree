@@ -250,7 +250,7 @@ def deepSearch(graph,Q=[]):
 def menu(game_tree=None, message=''):
     ''' Display the game menu'''
     if game_tree is None:
-        game_tree = importGraph()
+        game_tree = importGraph('game-tree-tictactoe.txt')
     clearTerminal()
     print('=============\n' \
           ' TIC TAC TOE \n' \
@@ -274,7 +274,7 @@ def menu(game_tree=None, message=''):
     elif option == 5:
         deepSearch(game_tree)
     elif option == 6:
-        exportGraph(game_tree)
+        exportGraph(game_tree, 'game-tree-tictactoe.txt')
         exit()
     menu(game_tree)
 
