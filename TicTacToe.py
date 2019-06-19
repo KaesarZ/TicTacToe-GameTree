@@ -212,7 +212,7 @@ def deepSearch(graph,Q=[]):
             else:
                 graph.addVertice('o'*9)
                 graph.addEdge(current,'o'*9,1)
-        exportGraph(graph)
+        exportGraph(graph, 'game-tree-tictactoe.txt')
         
     def deepSearchEx(graph,u):
         ''' Aux method for deepSearch'''
