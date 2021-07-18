@@ -36,7 +36,7 @@ The application was written in Python 3, and it appeared like academic work for 
 
 ## Authors
 
-* **Júlio César** - *Initial work* - [KaesarZ](https://github.com/KaesarZ)
+* **Júlio Barros** - *Initial work* - [kaesardev](https://github.com/kaesardev)
 * **Guilherme Guerra** - *Initial work* - [guilhermeguerrac](https://github.com/guilhermeguerrac)
 
 See also the list of [contributors](https://github.com/KaesarZ/TicTacToe-GameTree/contributors) who participated in this project.
